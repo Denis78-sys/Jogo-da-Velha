@@ -1,4 +1,6 @@
-﻿namespace Jogo_da_Velha
+﻿using System;
+
+namespace Jogo_da_Velha
 {
     partial class Form2
     {
@@ -393,6 +395,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
